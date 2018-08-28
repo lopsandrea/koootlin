@@ -25,11 +25,11 @@ class MainActivity : AppCompatActivity() {
         pager = findViewById(R.id.review_pager)
         adapter = FormPagerAdapter(supportFragmentManager)
         pager.setAdapter(adapter)
-        pager.setCurrentItem(model.getPagerPosition())
+        pager.setCurrentItem(model.pagerPosition)
         previous = findViewById(R.id.purchasePrevius)
 
         previous.setOnClickListener(object : View.OnClickListener() {
-            fun onClick(v: View) {
+            override fun onClick(v: View) {
                 previousPagerPage()
             }
         })
