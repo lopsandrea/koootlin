@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:fontFamily="@font/roboto_mono_thin"
+        android:text="Inquadra il QR Code"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorMultiSelectHighlight"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="81dp"
+        android:layout_height="86dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/darker_gray"
+        app:fabSize="normal"
+        app:rippleColor="@android:color/black"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+</android.support.constraint.ConstraintLayout>
