@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono_thin"
+        android:text="Grazie!"
+        android:textAllCaps="true"
+        android:textColor="?attr/colorError"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono_thin"
+        android:text="Il tuo feedback é stato registrato correttamente"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="68dp"
+        android:layout_height="72dp"
+        android:background="@android:color/background_light"
+        android:elevation="@android:dimen/notification_large_icon_height"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_sentiment_satisfied_black_24dp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="295dp" />
+</android.support.constraint.ConstraintLayout>
