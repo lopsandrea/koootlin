@@ -12,7 +12,7 @@ import android.view.View
 
 class FragmentForm1 : FragmentFormBase() {
 
-    internal var model: FormViewModel
+    var model: FormViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
