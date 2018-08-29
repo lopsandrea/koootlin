@@ -10,10 +10,6 @@ import android.view.View
 
 class FragmentForm1 : Fragment() {
 
-<<<<<<< HEAD
-    var model: FormViewModel
-=======
->>>>>>> 371b4f219b3cd6c28d39cf654c5c82d832070c88
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
