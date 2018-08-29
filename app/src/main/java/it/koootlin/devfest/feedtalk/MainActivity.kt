@@ -16,6 +16,5 @@ class MainActivity : AppCompatActivity() {
         ft.replace(R.id.rootLayout, FragmentForm1())
         ft.commit()
 
-
     }
 }
