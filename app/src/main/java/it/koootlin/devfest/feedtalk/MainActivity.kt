@@ -34,27 +34,4 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-
-    fun nextPagerPage() {
-        Log.e("tag", model.getPagerPosition() + "")
-        if (model.getPagerPosition() !== 2) {
-            model.setPagerPosition(model.getPagerPosition() + 1)
-            pager.setCurrentItem(model.getPagerPosition())
-        } else {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-
-
-        }
-    }
-
-    fun previousPagerPage() {
-        if (model.getPagerPosition() !== 0) {
-            model.setPagerPosition(model.getPagerPosition() - 1)
-            pager.setCurrentItem(model.getPagerPosition())
-        } else {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
-    }
 }
