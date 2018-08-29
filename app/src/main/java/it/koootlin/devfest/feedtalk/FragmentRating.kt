@@ -8,7 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 
 
-class FragmentForm2 : Fragment() {
+class FragmentRating : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
