@@ -8,13 +8,13 @@ import android.view.LayoutInflater
 import android.view.View
 
 
-class FragmentForm3 : Fragment() {
+class FragmentRating : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val rootView = inflater.inflate(
-                R.layout.final_view, container, false) as ViewGroup
+                R.layout.view_rating, container, false) as ViewGroup
         return rootView
     }
 

@@ -11,7 +11,7 @@ import android.content.Intent
 import com.google.zxing.integration.android.IntentIntegrator
 
 
-class FragmentForm1 : Fragment() {
+class FragmentQr : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
