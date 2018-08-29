@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import kotlinx.android.synthetic.main.view_qrcode.*
 
 
 class FragmentForm1 : Fragment() {
@@ -19,6 +20,9 @@ class FragmentForm1 : Fragment() {
                 R.layout.view_qrcode, container, false) as ViewGroup
 
 
+        laurantoCam.setOnClickListener {
+
+        }
         return rootView
     }
 
