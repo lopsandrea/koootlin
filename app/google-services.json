@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "584843439333",
+    "firebase_url": "https://feedtalk-6326e.firebaseio.com",
+    "project_id": "feedtalk-6326e",
+    "storage_bucket": "feedtalk-6326e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584843439333:android:fd7a75f23208df05",
+        "android_client_info": {
+          "package_name": "it.koootlin.devfest.feedtalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584843439333-7tsip4c2iom4uufvii1lbn0meds2gsss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaTBdnEgTuVhJqPEi6ZRTdLQT0kMVv8-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
